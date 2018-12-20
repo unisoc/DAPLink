@@ -490,3 +490,7 @@ projects:
         - *module_if
         - *module_hic_lpc11u35
         - records/board/mtb_stm_s2lp.yaml
+    lpc11u35_rda5981x_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/rda5981x.yaml
