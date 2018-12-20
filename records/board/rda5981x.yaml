@@ -1,0 +1,9 @@
+common:
+    macros:
+        - SOFT_RESET=VECTRESET
+    sources:
+        board:
+            - source/board/rda5981x.c
+        target:
+            - source/target/rda/rda5981x/target.c
+            - source/target/rda/target_reset.c
